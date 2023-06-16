@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: burlywood;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.wel{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.container{
+    position: center;
+    margin-top: 50px;
+    width: 450px;
+    height: auto;
+    background-color: rgb(165, 38, 112);
+    justify-content: center;
+    margin-left: 450px;
+    border-radius: 10px;
+}
+
+.label{
+    position: relative;
+    font-size: 30px;
+    background-color: blanchedalmond;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.login_form{ 
+    padding: 25px 45px;
+}
+
+.login_form.font{
+    font-size: 19px;
+    margin: 5px,0;
+
+}
+
+.login_form input{
+    height: 35px;
+    width: 350px;
+    padding: 0px 5px;
+    font-size: 19px;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.login_form .font2{
+margin-top: 10px;
+}
+
+.login_form button{
+    margin: 40px 0px 25px 0px;
+    height: 45px;
+    width: 360px;
+    font-size: 20px;
+    background-color: rgb(7, 10, 53);
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgb(245, 200, 200);
+    transition: 0.5;
+    border-radius: 5px;
+}
+
+.login_form buttton:hover{
+    background-color: rgb(227, 227, 235);
+}
+
+.login_form #Email_error,
+.login_form #password_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 19px;
+    color: rgb(214, 192, 180);
+    text-align: center;
+    padding: 5px 8px;
+    border: ipx solid red;
+}
+
+
+
+
